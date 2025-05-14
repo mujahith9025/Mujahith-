@@ -4,7 +4,7 @@ import numpy as np
 import joblib
 
 # Load the trained model
-model = joblib.load("model.pkl")  # Replace with your trained model path
+model = joblib.load("model_sklearn_1_6_1.pkl")  # Replace with your trained model path
 
 # App title and description
 st.title("🌍 Air Quality Level Predictor")
